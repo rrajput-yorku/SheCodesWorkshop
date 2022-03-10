@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./src/index.css" />
+  </head>
+  <body>
+    <div class="container-lg main">
+      <form>
+        <i class="fa-solid fa-location-dot"></i>
+        <input class="city-txt" type="text" placeholder="Type city here..." />
+        <button class="search-btn">Search</button>
+      </form>
+
+      <div class="row">
+        <div class="col">
+          <p class="feels-like">Feels like: 5° C | F</p>
+          <p class="humidity">Humidity: 25%</p>
+          <p class="wind">Wind Speed: 2 m / s</p>
+        </div>
+
+        <div class="col">
+          <p class="current-temperature">2° C | F</p>
+          <p class="humidity">Low: 2° C | F</p>
+          <p class="wind">High: 2° C | F</p>
+        </div>
+
+        <div class="col">
+          <p class="current-temperature">Toronto</p>
+          <p class="humidity">Tuesday, March 3, 21:00</p>
+          <p class="wind">Clouds 🌥</p>
+        </div>
+      </div>
+      <h3 class="forecast-heading">6 Days Forecast</h3>
+
+      <div class="row">
+        <div class="col">
+          <p>March 4</p>
+          <p>Sunny</p>
+          <p>🌞</p>
+          <p>12°|6°</p>
+        </div>
+        <div class="col">
+          <p>March 4</p>
+          <p>Sunny</p>
+          <p>🌦️</p>
+          <p>12°|6°</p>
+        </div>
+        <div class="col">
+          <p>March 4</p>
+          <p>Sunny</p>
+          <p>🌨️</p>
+          <p>12°|6°</p>
+        </div>
+        <div class="col">
+          <p>March 4</p>
+          <p>Sunny</p>
+          <p>🌩️</p>
+          <p>12°|6°</p>
+        </div>
+        <div class="col">
+          <p>March 4</p>
+          <p>Sunny</p>
+          <p>⛈️</p>
+          <p>12°|6°</p>
+        </div>
+        <div class="col">
+          <p>March 4</p>
+          <p>Sunny</p>
+          <p>🌤️</p>
+          <p>12°|6°</p>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/ce9718542f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
