@@ -15,69 +15,76 @@
   </head>
   <body>
     <div class="container-lg main">
-      <form class="search-city">
-        <i class="fa-solid fa-location-dot location"></i>
-        <input class="city-txt" type="text" placeholder="Type city here..." />
-        <button class="search-btn">Search</button>
+      <form class="hstack gap-3 search-form">
+        <a href="#" class="location-link"
+          ><i class="fa-solid fa-location-dot fa-2x location"></i
+        ></a>
+        <input
+          class="form-control form-control-md"
+          type="text"
+          placeholder="Type city here..."
+        />
+        <button class="btn btn-primary search-btn">Search</button>
       </form>
 
-      <div class="row">
-        <div class="col">
+      <div class="row todays-data">
+        <div class="col left-col">
           <p class="feels-like">Feels like: 5° C | F</p>
           <p class="humidity">Humidity: 25%</p>
           <p class="wind">Wind Speed: 2 m / s</p>
         </div>
 
-        <div class="col">
+        <div class="col center-col">
           <p class="current-temperature">2° C | F</p>
-          <p class="humidity">Low: 2° C | F</p>
-          <p class="wind">High: 2° C | F</p>
+          <p class="low">Low: 2° C | F</p>
+          <p class="high">High: 2° C | F</p>
         </div>
 
-        <div class="col">
-          <p class="current-temperature">Toronto</p>
-          <p class="humidity">Tuesday, March 3, 21:00</p>
-          <p class="wind">Clouds 🌥</p>
+        <div class="col right-col">
+          <p class="city">Toronto</p>
+          <p class="date">Tuesday, March 3, 21:00</p>
+          <p class="state">Clouds 🌥</p>
         </div>
       </div>
       <h3 class="forecast-heading">6 Days Forecast</h3>
 
-      <div class="row">
-        <div class="col">
+      <div class="row forecast-container">
+        <div class="col forecast-day">
           <p>March 4</p>
           <p>Sunny</p>
           <p>🌞</p>
-          <p>12°|6°</p>
+          <p>10°|-1°</p>
         </div>
-        <div class="col">
-          <p>March 4</p>
-          <p>Sunny</p>
-          <p>🌦️</p>
-          <p>12°|6°</p>
-        </div>
-        <div class="col">
-          <p>March 4</p>
-          <p>Sunny</p>
+
+        <div class="col forecast-day">
+          <p>March 5</p>
+          <p>Snow</p>
           <p>🌨️</p>
-          <p>12°|6°</p>
+          <p>-5°|-10°</p>
         </div>
-        <div class="col">
-          <p>March 4</p>
-          <p>Sunny</p>
+        <div class="col forecast-day">
+          <p>March 6</p>
+          <p>Thunderstorm</p>
           <p>🌩️</p>
-          <p>12°|6°</p>
+          <p>5°|2°</p>
         </div>
-        <div class="col">
-          <p>March 4</p>
-          <p>Sunny</p>
+        <div class="col forecast-day">
+          <p>March 7</p>
+          <p>Rain/Thunderstorm</p>
           <p>⛈️</p>
-          <p>12°|6°</p>
+          <p>19°|6°</p>
         </div>
-        <div class="col">
-          <p>March 4</p>
-          <p>Sunny</p>
+        <div class="col forecast-day">
+          <p>March 8</p>
+          <p>Partly Sunny</p>
           <p>🌤️</p>
-          <p>12°|6°</p>
+          <p>16°|6°</p>
+        </div>
+        <div class="col forecast-day">
+          <p>March 9</p>
+          <p>Rain</p>
+          <p>🌦️</p>
+          <p>12°|10°</p>
         </div>
       </div>
     </div>

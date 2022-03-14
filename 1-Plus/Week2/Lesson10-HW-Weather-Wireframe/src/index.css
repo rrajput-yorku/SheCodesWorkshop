@@ -1,15 +1,85 @@
 body {
   background: url("../images/bg1.jpg");
   background-size: cover;
-}
-.main {
-  display: block;
-  margin: 250px auto;
-  border: 3px solid white;
-  padding: 25px 55px;
-  color: white;
+  background-repeat: no-repeat;
 }
 
-.location{
-    
+.main {
+  display: block;
+  margin: 66px auto;
+  border: 2px solid rgba(255, 255, 255, 0.363);
+  padding: 25px 60px;
+  color: white;
+  background: #031227;
+  border-radius: 10px;
+  box-shadow: 8px 8px 26px rgba(0, 0, 0, 0.5);
+}
+
+.search-form {
+  margin: 10px 0 30px;
+}
+
+.location-link {
+  text-decoration: none;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.location-link:hover {
+  color: white;
+  opacity: 0.5;
+}
+
+.feels-like,
+.humidity,
+.wind,
+.low,
+.high,
+.date,
+.state {
+  font-size: 20px;
+}
+
+.feels-like,
+.humidity,
+.wind {
+  line-height: 37px;
+}
+
+.left-col {
+  margin-top: 15px;
+}
+
+.current-temperature,
+.city {
+  font-size: 56px;
+  margin: 0;
+}
+
+.todays-data {
+  margin-bottom: 10px;
+}
+
+.forecast-heading {
+  border: 2px solid rgba(255, 255, 255, 0.363);
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.forecast-container {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.forecast-day {
+  font-size: 20px;
+  padding: 10px 5px;
+  margin: 0 20px;
+  border-radius: 10px;
+}
+
+.forecast-day p {
+  line-height: 1.2;
 }
